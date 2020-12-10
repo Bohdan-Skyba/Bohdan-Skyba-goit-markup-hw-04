@@ -25,19 +25,6 @@ hero-text-color: #ffffff;
   --font-base2: Roboto, sans-serif;
   --border-color1: #eeeeee;
 }
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 a {
   text-decoration: none;
 }
@@ -64,10 +51,21 @@ img {
   display: block;
 }
 .container {
-  box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* header */
@@ -193,6 +191,8 @@ img {
   height: 600px;
   margin: auto;
   text-align: center;
+  background-image: url('../image/img-hero.jpg');
+  background-position: 50% 50%;
   background-color: var(--background-hero-footer);
 }
 .hero-title {
@@ -391,8 +391,7 @@ img {
 
 .footer {
   padding-top: 60px;
-  padding-bottom: 60px;
-  height: 252px;
+  padding-bottom: 51px;
   background-color: var(--background-hero-footer);
 }
 
@@ -410,7 +409,7 @@ img {
   margin-bottom: 20px;
 }
 
-/* footer-address */
+/* footer address */
 .footer-map-address-mail-tel {
   color: var(--background-base-nav-button-text);
   font-family: Roboto, sans-serif;
@@ -423,9 +422,13 @@ img {
   margin: 0;
 }
 .footer-address-list {
-  display: inline-block;
-  margin-top: 9px;
+  display: flex;
+  margin-bottom: 9px;
 }
+.footer-address-listend {
+  display: flex;
+}
+
 .footer-mail-tel-address {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto, sans-serif;
@@ -458,7 +461,7 @@ img {
 .button-menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .button-menu-item {
   border: none;
