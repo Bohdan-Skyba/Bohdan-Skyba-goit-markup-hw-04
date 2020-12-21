@@ -21,8 +21,8 @@ hero-text-color: #ffffff;
   --background-team: #f5f4fa;
   --logo2-color: #000000;
   --hero-text-color: #ffffff;
-  --font-base: Raleway, sans-serif;
-  --font-base2: Roboto, sans-serif;
+  --font-base: 'Raleway', sans-serif;
+  --font-base2: 'Roboto', sans-serif;
   --border-color1: #eeeeee;
   --icon-color: #afb1b8;
 }
