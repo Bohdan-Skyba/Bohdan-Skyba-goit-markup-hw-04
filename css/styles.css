@@ -185,6 +185,7 @@ img {
 .address-icon {
   margin-right: 10px;
   fill: currentColor;
+  vertical-align: middle;
 }
 
 /* Hero */
@@ -194,6 +195,7 @@ img {
   min-height: 600px;
 
   min-height: 600px;
+  width: 1600px;
   margin: 0 auto;
   text-align: center;
   background-color: var(--background-team);
@@ -498,7 +500,6 @@ img {
   letter-spacing: 0.03em;
 
   display: inline-block;
-  margin-bottom: 20px;
 }
 
 /* footer address */
@@ -516,6 +517,7 @@ img {
 .footer-address-list {
   display: flex;
   margin-bottom: 9px;
+  margin-top: 20px;
 }
 .footer-address-listend {
   display: flex;
@@ -588,7 +590,7 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-.button-menu-item {
+.button-menu-item:not(:first-child) {
   border: none;
   margin-left: 8px;
 }
@@ -617,6 +619,7 @@ img {
 .menu-button :focus {
   color: var(--background-base-nav-button-text);
   background-color: var(--logo1-active-link-text-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 /* color: var(--feature-title-text-color);
@@ -672,8 +675,8 @@ img {
 }
 .portfolio-title:hover,
 .portfolio-title:focus,
-.portfolio-p:hover,
-.portfolio-p:focus {
+/* .portfolio-p:hover,
+.portfolio-p:focus */ {
   color: var(--logo1-active-link-text-color);
 }
 .card-link {
