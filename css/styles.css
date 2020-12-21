@@ -447,8 +447,8 @@ img {
 
 /* our client */
 .clients {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .clients-list {
   display: flex;
@@ -616,7 +616,7 @@ img {
 }
 /* .menu-button.accent-color, */
 .menu-button:hover,
-.menu-button :focus {
+.menu-button:focus {
   color: var(--background-base-nav-button-text);
   background-color: var(--logo1-active-link-text-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
